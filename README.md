@@ -28,7 +28,7 @@ ANSWER Why not? HERE
 ```text
 ANSWER #4 HERE
 ```
-
+d
 ## Submission
 
 Follow these steps for submission:
@@ -38,3 +38,9 @@ Follow these steps for submission:
 3. Push it to your Remote/origin branch (i.e., GitHub: Feature01 -> origin/Feature01).
 4. Issue a Pull request to my instructor repo.
 5. Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.
+
+
+The answers are incorrect after 15 because the factorial of integers grows very quickly, and the int data type in Java has a limited range. Factorials of numbers greater than 12 or 13 exceed the maximum value that an int can hold, leading to overflow and incorrect results.
+
+Yes
+The limit depends on the available memory and computational resources. With BigInteger, you can theoretically calculate factorials for much larger numbers compared to using int. However, as the numbers grow larger, the computation time and memory requirements increase significantly. You can try calculating factorials for larger numbers and see how far you can go before encountering performance limitations.
